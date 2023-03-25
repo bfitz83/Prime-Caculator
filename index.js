@@ -56,7 +56,7 @@
             analizeTheNumberArray()
         }
 
-    // This function analizes the array. If a number is not prime, at least one number from 2 to half of its value will not have a decimal.
+    // This function analizes the array. If a number is not prime, when dividing, at least one number from 2 to half of its value will not have a decimal.
         // So when you multiply the number from findPrime() above by ten, if the last number is a 0 the number is not prime. So
         // if the array has a 0 in it, then the original inputEl.value is not prime
                 // i.e. (8 / 2) * 10 = 40
